@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.6)),url(aboutbg.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+#best{
+    width:120rem; 
+    height: 50rem;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06)!important;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37)!important;
+    border-radius: 36px!important;
+    border-left: 1px solid rgba(255,255,255,.3) !important ;
+    border-top: 1px solid rgba(255,255,255,.3) !important;
+}
+#about h1{
+    font-family: 'Rampart One', cursive !important;
+}
+
+#about p{
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+}
+

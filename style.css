@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 150;
+    padding: 0.5em 5rem;
+    box-shadow: 5px 5px 20px rgb(black);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 23px;
+    font-weight: 800;
+    color: aqua !important;
+}
+
+.navbarsupport{
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+
+.navbarsupport :hover{
+    border-bottom: 1px solid aqua;
+}
+#a{
+    color:white;
+    border-bottom: 2px solid transparent;
+    background: black;
+    box-shadow: 5px 5px 20px rgb(black);
+}
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url('!flavour.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+}
+#Home p{
+    font-size: 18px !important;
+    color: white !important;
+}
+#Home .btn {
+    background:black ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,3);
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+
+.Home1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home1{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url('!bars.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home1 h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+}
+#Home1 p{
+    font-size: 18px !important;
+    color: white !important;
+}
+#Home1 .btn1 {
+    background:black ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,3);
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+
+.Home2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home2{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url('!rolls.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home2 h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+}
+#Home2 p{
+    font-size: 18px !important;
+    color: white !important;
+}
+#Home2 .btn2 {
+    background:black ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,3);
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+
+  .Home3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home3{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url('!!cone.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home3 h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+}
+#Home3 p{
+    font-size: 18px !important;
+    color: white !important;
+}
+#Home3 .btn3 {
+    background:black ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,3);
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+
+  .Home4{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home4{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url('!desserts.png');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home4 h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #CCC,
+                 0px 2px 0px #CCC,
+                 0px 3px 0px #CCC,
+                 0px 4px 0px #CCC,
+                 0px 5px 0px #CCC,
+                 0px 6px 0px #CCC;
+}
+#Home4 p{
+    font-size: 18px !important;
+    color: white !important;
+}
+#Home4 .btn4 {
+    background:black ;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,3);
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+
+
+
+
